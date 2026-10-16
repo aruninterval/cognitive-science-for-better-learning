@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cognitive Science for Better Learning</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="topbar" role="banner">
+  <div class="topbar-in">
+    <b>Cognitive Science for Better Learning</b>
+    <div class="bar" role="progressbar" aria-label="Course progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="pbar"><i id="pfill"></i></div>
+    <span id="ptext">0%</span>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- COVER -->
+<section class="block cover-wrap" data-sec="0" id="s0" style="padding-top:0;border:0">
+  <div class="cover">
+    <div class="cover-in">
+      <div class="cover-text">
+        <span class="eyebrow" style="background:rgba(255,255,255,.2);color:#fff">Microlearning · ~12 min</span>
+        <h1>Cognitive Science for Better Learning</h1>
+        <p>Most study habits feel effective and aren't. Learn five evidence-based strategies that make knowledge stick &mdash; and practise them in a real-life scenario.</p>
+        <div class="chips" aria-label="What you will do">
+          <span class="chip">5 strategies</span><span class="chip">5 quick checks</span><span class="chip">Branching scenario</span><span class="chip">Final challenge</span>
+        </div>
+        <button class="btn light" data-next="s1">Start learning</button>
+      </div>
+      <div class="cover-art" aria-hidden="true">
+        <svg viewBox="0 0 400 400" role="img" aria-label="A glowing brain surrounded by icons for recall, repetition, mixing and ideas">
+          <defs>
+            <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff7ad1"/><stop offset="1" stop-color="#c21e8f"/></linearGradient>
+            <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb36b"/><stop offset="1" stop-color="#ff5d8f"/></linearGradient>
+          </defs>
+          <circle cx="200" cy="200" r="178" fill="rgba(255,255,255,.12)"/>
+          <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2" stroke-dasharray="3 9" stroke-linecap="round"/>
+          <!-- brain -->
+          <g>
+            <ellipse cx="160" cy="200" rx="86" ry="78" fill="url(#bg1)"/>
+            <ellipse cx="240" cy="200" rx="86" ry="78" fill="url(#bg2)"/>
+            <ellipse cx="200" cy="244" rx="40" ry="26" fill="#9b1170"/>
+            <path d="M200 124 V270" stroke="#fff" stroke-opacity=".6" stroke-width="3" stroke-linecap="round"/>
+            <g fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="4" stroke-linecap="round">
+              <path d="M118 176 q18 -22 38 -4 q16 14 30 -6"/>
+              <path d="M110 214 q22 16 40 -2 q16 -16 36 2"/>
+              <path d="M138 148 q14 12 26 0"/>
+              <path d="M214 176 q18 -18 36 0 q14 12 34 -4"/>
+              <path d="M214 214 q20 18 38 0 q16 -14 36 4"/>
+              <path d="M236 148 q14 12 28 0"/>
+            </g>
+            <g>
+              <circle cx="150" cy="182" r="7" fill="#a3e635"/><circle cx="262" cy="190" r="7" fill="#ffc83d"/>
+              <circle cx="180" cy="226" r="7" fill="#fff"/><circle cx="226" cy="156" r="7" fill="#a3e635"/>
+              <circle cx="128" cy="210" r="6" fill="#ffc83d"/><circle cx="274" cy="226" r="6" fill="#fff"/>
+              <path d="M150 182 L180 226 L226 156 L262 190 L274 226 M128 210 L150 182" fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="2"/>
+            </g>
+          </g>
+          <!-- orbiting badges -->
+          <g font-family="Segoe UI,system-ui,sans-serif" font-weight="800" text-anchor="middle">
+            <circle cx="200" cy="50" r="30" fill="#a3e635"/><text x="200" y="62" font-size="34" fill="#243b00">?</text>
+            <circle cx="350" cy="200" r="30" fill="#ffc83d"/><text x="350" y="212" font-size="32" fill="#4a2f00">&#8635;</text>
+            <circle cx="200" cy="350" r="30" fill="#18c4ad"/><text x="200" y="361" font-size="30" fill="#003d35">&#8644;</text>
+            <circle cx="50" cy="200" r="30" fill="#ffffff"/><text x="50" y="212" font-size="30" fill="#c21e8f">&#9998;</text>
+          </g>
+          <g fill="#fff"><path d="M330 70 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z"/><path d="M70 320 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4z" fill="#a3e635"/></g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 1 PROBLEM -->
+<section class="block" data-sec="1" id="s1">
+  <span class="eyebrow">Lesson 1 · The problem</span>
+  <h2>Why we forget (and why it feels fine)</h2>
+  <p class="lead">Memory fades fast without effort to retrieve it. The surprise: the study methods that <em>feel</em> smoothest are often the weakest.</p>
+
+  <figure>
+    <svg viewBox="0 0 640 300" role="img" aria-labelledby="fc-t fc-d">
+      <title id="fc-t">Forgetting curve with and without review</title>
+      <desc id="fc-d">Memory drops steeply after learning. With repeated reviews, each drop is shallower and memory stays higher.</desc>
+      <rect width="640" height="300" rx="16" fill="#fff"/>
+      <g stroke="#efe3d6"><line x1="60" y1="30" x2="60" y2="250"/><line x1="60" y1="250" x2="610" y2="250"/>
+      <line x1="60" y1="140" x2="610" y2="140" stroke-dasharray="4 6"/></g>
+      <path d="M60 40 C110 160, 170 215, 600 235" fill="none" stroke="#e0566f" stroke-width="4" stroke-linecap="round"/>
+      <path d="M60 40 C95 120,120 150,160 160 L160 70 C200 120,225 140,270 150 L270 60 C320 110,350 125,410 135 L410 55 C470 100,520 110,600 112" fill="none" stroke="#c21e8f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <g fill="#c21e8f"><circle cx="160" cy="70" r="5"/><circle cx="270" cy="60" r="5"/><circle cx="410" cy="55" r="5"/></g>
+      <text x="30" y="145" font-size="12" fill="#6b5577" transform="rotate(-90 30 145)" text-anchor="middle">Memory retained</text>
+      <text x="335" y="280" font-size="12" fill="#6b5577" text-anchor="middle">Time since learning →</text>
+      <text x="440" y="222" font-size="13" fill="#b3283f" font-weight="700">No review</text>
+      <text x="440" y="92" font-size="13" fill="#8f1269" font-weight="700">Spaced reviews</text>
+    </svg>
+    <figcaption>Illustrative model of the forgetting curve (after Ebbinghaus). Dots mark review moments.</figcaption>
+  </figure>
+
+  <h3>Myth or fact? Tap each card.</h3>
+  <div class="flips">
+    <button class="flip" aria-pressed="false"><div class="flip-in">
+      <div class="face front"><small>Claim</small><b>"Re-reading my notes is the best way to prepare."</b><span class="hint">Tap to flip</span></div>
+      <div class="face back"><small>Myth</small><b>Familiarity ≠ knowledge.</b> Re-reading creates an illusion of mastery. Testing yourself works better.</div>
+    </div></button>
+    <button class="flip" aria-pressed="false"><div class="flip-in">
+      <div class="face front"><small>Claim</small><b>"I'm a visual learner, so I should only learn visually."</b><span class="hint">Tap to flip</span></div>
+      <div class="face back"><small>Myth</small><b>Matching "styles" hasn't been shown to improve results.</b> Match the method to the <em>content</em>, and combine words with visuals.</div>
+    </div></button>
+    <button class="flip" aria-pressed="false"><div class="flip-in">
+      <div class="face front"><small>Claim</small><b>"Struggling to recall something means I'm learning badly."</b><span class="hint">Tap to flip</span></div>
+      <div class="face back"><small>Fact (flipped!)</small><b>Effortful recall strengthens memory.</b> Researchers call these "desirable difficulties."</div>
+    </div></button>
+  </div>
+
+  <div class="cont"><button class="btn" data-next="s2">Continue</button></div>
+</section>
+
+<!-- 2 RETRIEVAL -->
+<section class="block" data-sec="2" id="s2">
+  <span class="eyebrow">Strategy 1 of 5</span>
+  <h2>Retrieval practice</h2>
+  <p class="lead">Pulling information <em>out</em> of memory strengthens it far more than putting it in again.</p>
+
+  <div class="card">
+    <h3>Try it now: brain dump</h3>
+    <p>Without scrolling up, write 2&ndash;3 things you remember from Lesson 1.</p>
+    <label for="dump" class="hint" style="display:block;margin-bottom:6px">Your answer stays on your device and isn't saved.</label>
+    <textarea id="dump" placeholder="Type what you remember…"></textarea>
+    <p style="margin-top:12px"><button class="btn ghost" id="dumpBtn">Check against the key ideas</button></p>
+    <div class="reveal" id="dumpReveal">
+      <div class="callout"><strong>Key ideas from Lesson 1</strong>Memory fades quickly without review · Re-reading creates false confidence · Effortful recall is a good sign.<br><br>
+      <b>You just did retrieval practice.</b> That small effort of remembering is exactly what makes the memory last.</div>
+    </div>
+  </div>
+
+  <h3>How to use it</h3>
+  <ol class="steps">
+    <li><b>Close the material</b>Put the notes away before you test yourself.</li>
+    <li><b>Recall in your own words</b>Write, say or sketch what you remember.</li>
+    <li><b>Check and fix gaps</b>Compare with the source, then retest what you missed.</li>
+  </ol>
+
+  <div class="kc" data-kc="k1"></div>
+  <div class="cont"><button class="btn" data-next="s3">Continue</button></div>
+</section>
+
+<!-- 3 SPACING -->
+<section class="block" data-sec="3" id="s3">
+  <span class="eyebrow">Strategy 2 of 5</span>
+  <h2>Spaced practice</h2>
+  <p class="lead">Same total study time, spread out, beats one big cram session for long-term memory.</p>
+
+  <div class="card">
+    <div class="tabs" role="tablist" aria-label="Study schedule">
+      <button class="tab" role="tab" aria-selected="true" data-sched="cram">Cramming</button>
+      <button class="tab" role="tab" aria-selected="false" data-sched="spaced">Spaced</button>
+    </div>
+    <div class="cal" id="cal" aria-hidden="true"></div>
+    <div class="legend"><span class="s">Study session</span><span class="t">Exam / real use</span></div>
+    <p id="schedText" style="margin-top:14px"></p>
+  </div>
+
+  <div class="callout warn"><strong>Rule of thumb</strong>Review soon after learning, then again after a day, a few days, a week. Gaps get longer as the memory strengthens.</div>
+
+  <div class="kc" data-kc="k2"></div>
+  <div class="cont"><button class="btn" data-next="s4">Continue</button></div>
+</section>
+
+<!-- 4 INTERLEAVING -->
+<section class="block" data-sec="4" id="s4">
+  <span class="eyebrow">Strategy 3 of 5</span>
+  <h2>Interleaving</h2>
+  <p class="lead">Mix related topics or problem types instead of finishing one before starting the next.</p>
+
+  <div class="card">
+    <div class="tabs" role="tablist" aria-label="Practice order">
+      <button class="tab" role="tab" aria-selected="true" data-order="blocked">Blocked</button>
+      <button class="tab" role="tab" aria-selected="false" data-order="mixed">Interleaved</button>
+    </div>
+    <div class="blocks" id="blocks" aria-hidden="true"></div>
+    <p id="orderText"></p>
+  </div>
+
+  <div class="grid">
+    <div class="stat"><div class="n">Feels harder</div><div class="l">during practice</div></div>
+    <div class="stat"><div class="n">Works better</div><div class="l">on later tests</div></div>
+  </div>
+  <p>Interleaving forces you to choose <em>which</em> method applies, which is the skill you need in real life.</p>
+
+  <div class="kc" data-kc="k3"></div>
+  <div class="cont"><button class="btn" data-next="s5">Continue</button></div>
+</section>
+
+<!-- 5 DUAL CODING -->
+<section class="block" data-sec="5" id="s5">
+  <span class="eyebrow">Strategy 4 of 5</span>
+  <h2>Dual coding</h2>
+  <p class="lead">Pair words with relevant visuals. Two memory routes beat one.</p>
+
+  <figure>
+    <svg viewBox="0 0 640 220" role="img" aria-labelledby="dc-t">
+      <title id="dc-t">Words and visuals both feed one memory</title>
+      <rect width="640" height="220" rx="16" fill="#fff"/>
+      <rect x="40" y="30" width="170" height="60" rx="14" fill="#fde6f4"/><text x="125" y="66" text-anchor="middle" font-size="16" font-weight="700" fill="#8f1269">Words</text>
+      <rect x="40" y="130" width="170" height="60" rx="14" fill="#e8f7f4"/><text x="125" y="166" text-anchor="middle" font-size="16" font-weight="700" fill="#0b6b5d">Visuals</text>
+      <path d="M210 60 L400 105" stroke="#c21e8f" stroke-width="3" fill="none"/><path d="M210 160 L400 115" stroke="#0f9d8a" stroke-width="3" fill="none"/>
+      <circle cx="470" cy="110" r="62" fill="#c21e8f"/><text x="470" y="106" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Stronger</text><text x="470" y="126" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">memory</text>
+    </svg>
+    <figcaption>Words and images are processed through partly separate channels, so each adds a retrieval route.</figcaption>
+  </figure>
+
+  <details><summary>What counts as a useful visual?</summary><div class="in">Diagrams, timelines, flows, labelled sketches, charts. They show relationships and structure.</div></details>
+  <details><summary>What doesn't?</summary><div class="in">Decorative stock photos. If the image doesn't explain something, it adds load instead of learning.</div></details>
+  <details><summary>A quick way to apply it</summary><div class="in">After reading, close the page and draw the idea from memory (a mind map, flowchart or sketch), then compare with the source.</div></details>
+
+  <div class="kc" data-kc="k4"></div>
+  <div class="cont"><button class="btn" data-next="s6">Continue</button></div>
+</section>
+
+<!-- 6 COGNITIVE LOAD -->
+<section class="block" data-sec="6" id="s6">
+  <span class="eyebrow">Strategy 5 of 5</span>
+  <h2>Manage cognitive load</h2>
+  <p class="lead">Working memory holds only a few items at once. Chunk and simplify so effort goes to learning, not decoding.</p>
+
+  <div class="card">
+    <h3>Try remembering this number</h3>
+    <div class="digits" id="digits" aria-live="polite">4 9 5 2 8 1 7 3 6 0</div>
+    <p style="text-align:center"><button class="btn ghost" id="chunkBtn">Chunk it</button></p>
+    <p class="hint" style="text-align:center">Ten separate digits are hard. Three chunks are manageable.</p>
+  </div>
+
+  <div class="grid">
+    <div class="stat"><div class="n">Chunk</div><div class="l">group related items</div></div>
+    <div class="stat"><div class="n">Cut</div><div class="l">remove what doesn't serve the goal</div></div>
+    <div class="stat"><div class="n">Sequence</div><div class="l">one idea at a time</div></div>
+  </div>
+
+  <div class="kc" data-kc="k5"></div>
+  <div class="cont"><button class="btn" data-next="s7">Continue</button></div>
+</section>
+
+<!-- 7 BRANCHING SCENARIO -->
+<section class="block" data-sec="7" id="s7">
+  <span class="eyebrow">Scenario</span>
+  <h2>Maya's three-week exam sprint</h2>
+  <p class="lead">Make the study decisions for Maya. Your choices change what happens next, and how her story ends.</p>
+  <div class="scn" id="scn" aria-live="polite"></div>
+  <div class="cont"><button class="btn" id="scnNext" data-next="s8" disabled>Continue</button></div>
+</section>
+
+<!-- 8 PLAN -->
+<section class="block" data-sec="8" id="s8">
+  <span class="eyebrow">Put it to work</span>
+  <h2>Your 5-minute starter plan</h2>
+  <p class="lead">Pick what you'll do this week. Small and specific wins.</p>
+  <div class="card">
+    <label class="check"><input type="checkbox"><span><b>Quiz yourself first</b><br>End each study session with 5 questions from memory.</span></label>
+    <label class="check"><input type="checkbox"><span><b>Schedule two reviews</b><br>Put reviews at +1 day and +1 week in your calendar.</span></label>
+    <label class="check"><input type="checkbox"><span><b>Mix it up</b><br>Shuffle problem types or topics in one sitting.</span></label>
+    <label class="check"><input type="checkbox"><span><b>Draw it</b><br>Sketch one concept from memory instead of re-reading.</span></label>
+    <label class="check"><input type="checkbox"><span><b>Chunk it</b><br>Break one big topic into 3&ndash;4 labelled groups.</span></label>
+  </div>
+  <div class="cont"><button class="btn" data-next="s9">Take the final challenge</button></div>
+</section>
+
+<!-- 9 FINAL -->
+<section class="block" data-sec="9" id="s9">
+  <span class="eyebrow">Final challenge</span>
+  <h2>Show what you know</h2>
+  <p class="lead">Five scenario questions. Score 80% or higher to pass. You can retry.</p>
+  <div id="final"></div>
+</section>
+
+</main>
+<footer>Cognitive Science for Better Learning · Microlearning</footer>
+
+<script src="js/scorm.js"></script>
+<script src="js/course.js"></script>
+</body>
+</html>
